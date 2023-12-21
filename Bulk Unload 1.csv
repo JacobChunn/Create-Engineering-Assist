@@ -1,0 +1,25 @@
+line number,Symbol,,,,,,,,,,,,macro name,standard,macro type,user 1,user 2,user 3,macro signal,x-position of group,y-position of group,width of group,height of group,target file name
+2,+3415-BUP1-PIO1-PI1-PSW1,,,,,,,,,,,,InOperandGenerator1,,InOperandGenerator,,,,in,0,65,650,35,duplicated
+3,+3415-BUP1-PIO1-PI1-PDS902- LO,,,,,,,,,,,,InOperandGenerator2,,InOperandGenerator,,,,in,0,100,650,35,duplicated
+4,+3415-BUP1-PIO1-PI1-PDS902-HI,,,,,,,,,,,,InOperandGenerator3,,InOperandGenerator,,,,in,0,135,650,35,duplicated
+5,+3415-BUP01-PIO01-PI01-FSW1705-LO FLW,,,,,,,,,,,,InOperandGenerator4,,InOperandGenerator,,,,in,0,170,650,35,duplicated
+6,+3415-BUP01-PIO01-PI01-FSW1705- HI FLW,,,,,,,,,,,,InOperandGenerator5,,InOperandGenerator,,,,in,0,205,650,35,duplicated
+7,+3415-BUP1-PIO1-PI1-ISB952-HI,,,,,,,,,,,,InOperandGenerator6,,InOperandGenerator,,,,in,0,240,650,35,duplicated
+8,+3415-BUP01-PIO01-PI01-FSW1708-LO FLW,,,,,,,,,,,,InOperandGenerator7,,InOperandGenerator,,,,in,0,275,650,35,duplicated
+9,+3415-BUP01-PIO01-PI01-FSW1708- HI FLW,,,,,,,,,,,,InOperandGenerator8,,InOperandGenerator,,,,in,0,310,650,35,duplicated
+10,+3415-BUP1-PIO1-PI1-FLWFLEXER-AUTO,,,,,,,,,,,,InOperandGenerator9,,InOperandGenerator,,,,in,0,345,650,35,duplicated
+11,3415-BUP01-PIO01-PSI03-SR701-RLYFB,,,,,,,,,,,,InOperandGenerator10,,InOperandGenerator,,,,in,0,380,650,35,duplicated
+12,3415-BUP01-PIO01-PSI03-SR751-RLYFB,,,,,,,,,,,,InOperandGenerator11,,InOperandGenerator,,,,in,0,415,650,35,duplicated
+13,3415-BUP01-PIO01-PIA02-WC1101,,,,,,,,,,,,InOperandGeneratorDecimal12,,InOperandGeneratorDecimal,,,,in,0,415,650,70,duplicated
+14,3415-HCP01-PIO01-PO07-XY2103-CMD,,,,,,,,,,,,InOperandGenerator13,,InOperandGenerator,,,,in,1290,65,650,35,duplicated
+15,3415-BUP01-PIO01-PO05-XY1902-CMD,,,,,,,,,,,,InOperandGenerator14,,InOperandGenerator,,,,in,1290,100,650,35,duplicated
+16,3415-BUP01-PIO01-PO05-XY1903-CMD,,,,,,,,,,,,InOperandGenerator15,,InOperandGenerator,,,,in,1290,135,650,35,duplicated
+17,3415-BUP01-PIO01-PO05-XY1904-CMD,,,,,,,,,,,,InOperandGenerator16,,InOperandGenerator,,,,in,1290,170,650,35,duplicated
+18,3415-BUP01-PIO01-PO05-XY1905-CMD,,,,,,,,,,,,InOperandGenerator17,,InOperandGenerator,,,,in,1290,205,650,35,duplicated
+19,3415-BUP01-PIO01-PO05-XY1906-CMD,,,,,,,,,,,,InOperandGenerator18,,InOperandGenerator,,,,in,1290,240,650,35,duplicated
+20,3415-BUP01-PIO01-PO05-XY1907-CMD,,,,,,,,,,,,InOperandGenerator19,,InOperandGenerator,,,,in,1290,275,650,35,duplicated
+21,3415-BUP01-PIO01-PO05-FLWFLEXER-AUTOEN,,,,,,,,,,,,InOperandGenerator20,,InOperandGenerator,,,,in,1290,310,650,35,duplicated
+22,3415-BUP01-PIO01-PSO04-SR701-CH1,,,,,,,,,,,,InOperandGenerator21,,InOperandGenerator,,,,in,1290,345,650,35,duplicated
+23,3415-BUP01-PIO01-PSO04-SR701-CH2,,,,,,,,,,,,InOperandGenerator22,,InOperandGenerator,,,,in,1290,380,650,35,duplicated
+24,3415-BUP01-PIO01-PSO04-SR751-CH1,,,,,,,,,,,,InOperandGenerator23,,InOperandGenerator,,,,in,1290,415,650,35,duplicated
+25,3415-BUP01-PIO01-PSO04-SR751-CH2,,,,,,,,,,,,InOperandGenerator24,,InOperandGenerator,,,,in,1290,450,650,35,duplicated

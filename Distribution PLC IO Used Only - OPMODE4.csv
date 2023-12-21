@@ -1,0 +1,34 @@
+s100InWorkpiecePresent,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4610.0,FlexProLine X1Pin1: Einlegestation belegt,FALSE,FALSE,FALSE
+s101PusherPositionLeft,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4610.1,FlexProLine X1Pin2: Schieber bei Pos. X-,FALSE,FALSE,FALSE
+s102PusherPositionRight,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4610.2,FlexProLine X1Pin3: Schieber bei Pos. X+,FALSE,FALSE,FALSE
+s103Lifter1PositionDown,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4610.3,FlexProLine X1Pin4: WSS/SF bei Pos. Z+,FALSE,FALSE,FALSE
+s104Lifter1PositionUp,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4610.4,FlexProLine X1Pin5: WSS/SF bei Pos. Z-,FALSE,FALSE,FALSE
+s105Lifter2PositionDown,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4610.5,FlexProLine X1Pin6: WSS/R bei Pos. Z+,FALSE,FALSE,FALSE
+s106Lifter2PositionUp,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4610.6,FlexProLine X1Pin7: WSS/R bei Pos. Z-,FALSE,FALSE,FALSE
+b107Lifter2ToolAtPos,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4610.7,FlexProLine X1Pin8: WSS/R Werkzeug in Position,FALSE,FALSE,FALSE
+s110Lifter3PositionFront,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4611.0,FlexProLine X1Pin9: WSS/B+F bei Pos. Y+,FALSE,FALSE,FALSE
+s111Lifter3PositionBack,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4611.1,FlexProLine X1Pin10: WSS/B+F bei Pos. Y-,FALSE,FALSE,FALSE
+s112Lifter3PositionDown,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4611.2,FlexProLine X1Pin11: WSS/B+F bei Pos. Z+,FALSE,FALSE,FALSE
+s113Lifter3PositionUp,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4611.3,FlexProLine X1Pin12: WSS/B+F bei Pos. Z-,FALSE,FALSE,FALSE
+b114ConvBelt1PartPresent,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4611.4,FlexProLine X1Pin13: Förderband 1 Werkstück vorhanden,FALSE,FALSE,FALSE
+b115ConvBelt2PartPresent,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4611.5,FlexProLine X1Pin14: Förderband 2 Werkstück vorhanden,FALSE,FALSE,FALSE
+b116ConvBelt3PartPresent,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4611.6,FlexProLine X1Pin15: Förderband 3 Werkstück vorhanden,FALSE,FALSE,FALSE
+b117LightSensInputStat,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4611.7,FlexProLine X1Pin16: Lichtschranke Einlegestation,FALSE,FALSE,FALSE
+b120LightSensOutputStat,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%I4612.0,FlexProLine X1Pin20: Lichtschranke Ablageplatz,FALSE,FALSE,FALSE
+m100PusherToLeft,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4610.0,FlexProLine X2Pin1: Schieber nach X-,FALSE,FALSE,FALSE
+m101PusherToRight,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4610.1,FlexProLine X2Pin2: Schieber nach X+,FALSE,FALSE,FALSE
+m102ConveyorBelt1,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4610.2,FlexProLine X2Pin3: Förderband 1,FALSE,FALSE,FALSE
+m110ConveyorBelt2,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4611.0,FlexProLine X2Pin4: Förderband 2,FALSE,FALSE,FALSE
+m120ConveyorBelt3,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4612.0,FlexProLine X2Pin5: Förderband 3,FALSE,FALSE,FALSE
+m104Lifter1Up,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4610.4,FlexProLine X2Pin6: WSS/SF nach Z+,FALSE,FALSE,FALSE
+m103Lifter1Down,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4610.3,FlexProLine X2Pin7: WSS/SF nach Z-,FALSE,FALSE,FALSE
+m105Lifter1ToolDrive,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4610.5,FlexProLine X2Pin8: WSS/SF Werkzeugantrieb,FALSE,FALSE,FALSE
+m111Lifter2Down,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4611.1,FlexProLine X2Pin10: WSS/R nach Z-,FALSE,FALSE,FALSE
+m112Lifter2Up,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4611.2,FlexProLine X2Pin9: WSS/R nach Z+,FALSE,FALSE,FALSE
+m113Lifter2ToolDrive,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4611.3,FlexProLine X2Pin12: WSS/R Werkzeugantrieb,FALSE,FALSE,FALSE
+m114Lifter2ToolChange,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4611.4,FlexProLine X2Pin11: WSS/R Werkzeugwechsel,FALSE,FALSE,FALSE
+m121Lifter3Back,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4612.1,FlexProLine X2Pin14: WSS/B nach Y-,FALSE,FALSE,FALSE
+m122Lifter3Front,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4612.2,FlexProLine X2Pin13: WSS/B nach Y+,FALSE,FALSE,FALSE
+m123Lifter3Down,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4612.3,FlexProLine X2Pin16: WSS/B+F nach Z-,FALSE,FALSE,FALSE
+m124Lifter3Up,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4612.4,FlexProLine X2Pin15: WSS/B+F nach Z+,FALSE,FALSE,FALSE
+m125Lifter3ToolDrive,_PlcTags\OPMode\OPMode4\ModelFlexProLine,Bool,%Q4612.5,FlexProLine X2Pin20: WSS/B+F Werkzeugantrieb,FALSE,FALSE,FALSE

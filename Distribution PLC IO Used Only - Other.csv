@@ -1,0 +1,28 @@
+3415-HCP01-PIO01-PI09-PSW2202,Remote IO\HCP-IO,Bool,%I1944.0,Main Air Pressure Switch,TRUE,TRUE,TRUE
+3415-HCP01-PIO01-PSI10-SR1401-1-FB,Remote IO\HCP-SafetyIO,Bool,%I1900.0,HCP Master Power Safety Relay Feedback,TRUE,TRUE,TRUE
+3415-HCP01-PIO01-PSI10-SR1451-1-FB,Remote IO\HCP-SafetyIO,Bool,%I1900.1,HCP E-Stop Safety Relay Feedback,TRUE,TRUE,TRUE
+3415-HCP01-PIO01-PSO11-SR1401-1-CH1CMD,Remote IO\HCP-SafetyIO,Bool,%Q1910.0,HCP Master Power Safety Relay Channel 1,TRUE,TRUE,TRUE
+3415-HCP01-PIO01-PSO11-SR1401-1-CH2CMD,Remote IO\HCP-SafetyIO,Bool,%Q1910.1,HCP Master Power Safety Relay Channel 2,TRUE,TRUE,TRUE
+3415-HCP01-PIO01-PSO11-SR1451-1-CH1CMD,Remote IO\HCP-SafetyIO,Bool,%Q1910.2,HCP E-Stop Safety Relay Channel 1,TRUE,TRUE,TRUE
+3415-HCP01-PIO01-PSO11-SR1451-1-CH2CMD,Remote IO\HCP-SafetyIO,Bool,%Q1910.3,HCP E-Stop Safety Relay Channel 2,TRUE,TRUE,TRUE
+ST3415-EUO1-PBL04,_PlcTags\UserConstants\Alarm_Mode_UserConstants,Bool,%I1310.0,,TRUE,TRUE,TRUE
+ST3415-EUO2-PBL04,_PlcTags\UserConstants\Alarm_Mode_UserConstants,Bool,%I1410.0,,TRUE,TRUE,TRUE
+ST3415-EUO1-ES01,_PlcTags\Safety\EStop,Bool,%I1300.4,,TRUE,TRUE,TRUE
+ST3415-EUO1-ES02,_PlcTags\Safety\EStop,Bool,%I1300.5,,TRUE,TRUE,TRUE
+ST3415-EUO2-ES01,_PlcTags\Safety\EStop,Bool,%I1400.4,,TRUE,TRUE,TRUE
+ST3415-EUO2-ES02,_PlcTags\Safety\EStop,Bool,%I1400.5,,TRUE,TRUE,TRUE
+ST3415-EU01-LT01,_PlcTags\Safety\Reset,Bool,%Q1310.0,,TRUE,TRUE,TRUE
+ST3415-EU02-LT01,_PlcTags\Safety\Reset,Bool,%Q1410.0,,TRUE,TRUE,TRUE
+eemProfileE3,_PlcTags\Energy\EeMonitor\EeMonitor,"""typeMeasDataProfileE3""",%I121.0,Energy efficency Profile E3,FALSE,FALSE,FALSE
+energyMeter1MeasPoint1,_PlcTags\Energy\EeMonitor\EeMonitor,"""typeEnMeterOutputData""",%Q27.0,Energy meter 1 measure point 1,FALSE,FALSE,FALSE
+energyMeter2MeasPoint2,_PlcTags\Energy\EeMonitor\EeMonitor,"""typeEnMeterOutputData""",%Q121.0,Energy meter 2 measure point 2,FALSE,FALSE,FALSE
+modelIn16,_PlcTags\OPMode\ModelDevices,"""typeModelIn16""",%I4604.0,16 Input ET200SP ,FALSE,FALSE,FALSE
+modelOut16,_PlcTags\OPMode\ModelDevices,"""typeModelOut16""",%Q4604.0,16 Output ET200SP ,FALSE,FALSE,FALSE
+ST3415-EUO1-PBL04,_PlcTags\UserConstants\Alarm_Mode_UserConstants,Bool,%I1310.0,,TRUE,TRUE,TRUE
+ST3415-EUO2-PBL04,_PlcTags\UserConstants\Alarm_Mode_UserConstants,Bool,%I1410.0,,TRUE,TRUE,TRUE
+ST3415-EUO1-ES01,_PlcTags\Safety\EStop,Bool,%I1300.4,,TRUE,TRUE,TRUE
+ST3415-EUO1-ES02,_PlcTags\Safety\EStop,Bool,%I1300.5,,TRUE,TRUE,TRUE
+ST3415-EUO2-ES01,_PlcTags\Safety\EStop,Bool,%I1400.4,,TRUE,TRUE,TRUE
+ST3415-EUO2-ES02,_PlcTags\Safety\EStop,Bool,%I1400.5,,TRUE,TRUE,TRUE
+ST3415-EU01-LT01,_PlcTags\Safety\Reset,Bool,%Q1310.0,,TRUE,TRUE,TRUE
+ST3415-EU02-LT01,_PlcTags\Safety\Reset,Bool,%Q1410.0,,TRUE,TRUE,TRUE
